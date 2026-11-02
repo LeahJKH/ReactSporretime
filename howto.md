@@ -87,8 +87,17 @@ Etter første deploy må GitHub Pages få beskjed om å bruke `gh-pages`-grenen:
 
 Vent et minutt eller to mens GitHub publiserer siden.
 
+## Trinn 7: opdatere siden
 
-## Trinn 7: Feilsøking ved deploy
+for og oppdatere endringene du har gjort trenger du bare to kommandoer
+
+```shell
+npm run build
+npm run deploy
+```
+så gi siden et par minutter og du er oppdateret
+
+## Trinn 8: Feilsøking ved deploy
 
 Pass på at du står i riktig mappe før du kjører deploy-kommandoen:
 
